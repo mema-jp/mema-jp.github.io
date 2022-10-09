@@ -406,6 +406,7 @@ h6 {
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
   color: #fff;
+  font-size: 18px;
 }
 
 #hero .carousel-inner .carousel-item {
@@ -671,14 +672,14 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Clients
+# technology
 --------------------------------------------------------------*/
-.clients {
+.technology {
   padding: 15px 0;
   text-align: center;
 }
 
-.clients img {
+.technology img {
   max-width: 45%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
@@ -686,13 +687,13 @@ section {
   filter: grayscale(100);
 }
 
-.clients img:hover {
+.technology img:hover {
   filter: none;
   transform: scale(1.15);
 }
 
 @media (max-width: 768px) {
-  .clients img {
+  .technology img {
     max-width: 40%;
   }
 }
