@@ -28,8 +28,8 @@ var PageFooter = function (_React$Component) {
       }
 
       return React.createElement(
-        'footer',
-        { id: 'footer' },
+        React.Fragment,
+        null,
         React.createElement(
           'div',
           { 'class': 'footer-top' },
@@ -85,7 +85,7 @@ var PageFooter = function (_React$Component) {
               React.createElement(
                 'span',
                 null,
-                '\u682A\u5F0F\u4F1A\u793EMEMA'
+                'MEMA Co.,Ltd.'
               )
             ),
             '. All Rights Reserved'

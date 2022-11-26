@@ -12,7 +12,7 @@ class PageFooter extends React.Component {
     }
 
     return (
-      <footer id="footer">
+      <React.Fragment>
       <div class="footer-top">
         <div class="container">
           <div class="row">
@@ -33,10 +33,10 @@ class PageFooter extends React.Component {
       </div>
       <div class="container">
         <div class="copyright">
-          &copy; Copyright <strong><span>株式会社MEMA</span></strong>. All Rights Reserved
+          &copy; Copyright <strong><span>MEMA Co.,Ltd.</span></strong>. All Rights Reserved
         </div>
       </div>
-      </footer>
+      </React.Fragment>
     );
   }
 }

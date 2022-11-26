@@ -4,7 +4,9 @@
   "description": "Thanks for downloading this template!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx babel --watch src --out-dir assets/js --presets react-app/prod",
+    "serve": "npx http-serve"
   },
   "repository": {
     "type": "git",
