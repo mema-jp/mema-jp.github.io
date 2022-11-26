@@ -20,10 +20,11 @@ class PageFooter extends React.Component {
               <div class="footer-info">
                 <h3>株式会社MEMA</h3>
                 <p>
-                  A108 Adam Street <br/>
-                  NY 535022, USA<br/><br/>
-                  <strong>Phone:</strong> +1 5589 55488 55<br/>
-                  <strong>Email:</strong> info@example.com<br/>
+                  〒210-0844 <br/>
+                  神奈川県川崎市川崎区<br/>
+                  渡田新町１ー１ー６ー２<br/>
+                  {/* <strong>Phone:</strong> 080-9373-5115<br/> */}
+                  <strong>Email:</strong> info@mema.co.jp<br/>
                 </p>
               </div>
             </div>

@@ -53,24 +53,18 @@ var PageFooter = function (_React$Component) {
                   React.createElement(
                     'p',
                     null,
-                    'A108 Adam Street ',
+                    '\u3012210-0844 ',
                     React.createElement('br', null),
-                    'NY 535022, USA',
+                    '\u795E\u5948\u5DDD\u770C\u5DDD\u5D0E\u5E02\u5DDD\u5D0E\u533A',
                     React.createElement('br', null),
-                    React.createElement('br', null),
-                    React.createElement(
-                      'strong',
-                      null,
-                      'Phone:'
-                    ),
-                    ' +1 5589 55488 55',
+                    '\u6E21\u7530\u65B0\u753A\uFF11\u30FC\uFF11\u30FC\uFF16\u30FC\uFF12',
                     React.createElement('br', null),
                     React.createElement(
                       'strong',
                       null,
                       'Email:'
                     ),
-                    ' info@example.com',
+                    ' info@mema.co.jp',
                     React.createElement('br', null)
                   )
                 )
