@@ -14,58 +14,154 @@ var PageFooter = function (_React$Component) {
   function PageFooter(props) {
     _classCallCheck(this, PageFooter);
 
-    var _this = _possibleConstructorReturn(this, (PageFooter.__proto__ || Object.getPrototypeOf(PageFooter)).call(this, props));
-
-    _this.state = { liked: false };
-    return _this;
+    return _possibleConstructorReturn(this, (PageFooter.__proto__ || Object.getPrototypeOf(PageFooter)).call(this, props));
   }
 
   _createClass(PageFooter, [{
-    key: 'render',
+    key: "render",
     value: function render() {
-      if (this.state.liked) {
-        return 'You liked this.';
-      }
-
       return React.createElement(
         React.Fragment,
         null,
         React.createElement(
-          'div',
-          { 'class': 'footer-top' },
+          "div",
+          { "class": "footer-top" },
           React.createElement(
-            'div',
-            { 'class': 'container' },
+            "div",
+            { "class": "container" },
             React.createElement(
-              'div',
-              { 'class': 'row' },
+              "div",
+              { "class": "row" },
               React.createElement(
-                'div',
-                { 'class': 'col-lg-3 col-md-6' },
+                "div",
+                { "class": "col-lg-3 col-md-6" },
                 React.createElement(
-                  'div',
-                  { 'class': 'footer-info' },
+                  "div",
+                  { "class": "footer-info" },
                   React.createElement(
-                    'h3',
+                    "h3",
                     null,
-                    '\u682A\u5F0F\u4F1A\u793EMEMA'
+                    "\u682A\u5F0F\u4F1A\u793EMEMA"
                   ),
                   React.createElement(
-                    'p',
+                    "p",
                     null,
-                    '\u3012210-0844 ',
-                    React.createElement('br', null),
-                    '\u795E\u5948\u5DDD\u770C\u5DDD\u5D0E\u5E02\u5DDD\u5D0E\u533A',
-                    React.createElement('br', null),
-                    '\u6E21\u7530\u65B0\u753A\uFF11\u30FC\uFF11\u30FC\uFF16\u30FC\uFF12',
-                    React.createElement('br', null),
+                    "\u3012210-0844 ",
+                    React.createElement("br", null),
+                    "\u795E\u5948\u5DDD\u770C\u5DDD\u5D0E\u5E02\u5DDD\u5D0E\u533A",
+                    React.createElement("br", null),
+                    "\u6E21\u7530\u65B0\u753A\uFF11\u30FC\uFF11\u30FC\uFF16\u30FC\uFF12",
+                    React.createElement("br", null),
                     React.createElement(
-                      'strong',
+                      "strong",
                       null,
-                      'Email:'
+                      "Email:"
                     ),
-                    ' info@mema.co.jp',
-                    React.createElement('br', null)
+                    " info@mema.co.jp",
+                    React.createElement("br", null)
+                  )
+                )
+              ),
+              React.createElement(
+                "div",
+                { "class": "col-lg-2 col-md-6 footer-links" },
+                React.createElement(
+                  "h4",
+                  null,
+                  "Useful Links"
+                ),
+                React.createElement(
+                  "ul",
+                  null,
+                  React.createElement(
+                    "li",
+                    null,
+                    React.createElement("i", { "class": "bx bx-chevron-right" }),
+                    " ",
+                    React.createElement(
+                      "a",
+                      { href: "/" },
+                      "\u30DB\u30FC\u30E0"
+                    )
+                  ),
+                  React.createElement(
+                    "li",
+                    null,
+                    React.createElement("i", { "class": "bx bx-chevron-right" }),
+                    " ",
+                    React.createElement(
+                      "a",
+                      { href: "about.html" },
+                      "\u4F1A\u793E\u60C5\u5831"
+                    )
+                  )
+                )
+              ),
+              React.createElement(
+                "div",
+                { "class": "col-lg-3 col-md-6 footer-links" },
+                React.createElement(
+                  "h4",
+                  null,
+                  "Our Services"
+                ),
+                React.createElement(
+                  "ul",
+                  null,
+                  React.createElement(
+                    "li",
+                    null,
+                    React.createElement("i", { "class": "bx bx-chevron-right" }),
+                    " ",
+                    React.createElement(
+                      "a",
+                      { href: "#" },
+                      "Web Design"
+                    )
+                  ),
+                  React.createElement(
+                    "li",
+                    null,
+                    React.createElement("i", { "class": "bx bx-chevron-right" }),
+                    " ",
+                    React.createElement(
+                      "a",
+                      { href: "#" },
+                      "Web Development"
+                    )
+                  ),
+                  React.createElement(
+                    "li",
+                    null,
+                    React.createElement("i", { "class": "bx bx-chevron-right" }),
+                    " ",
+                    React.createElement(
+                      "a",
+                      { href: "#" },
+                      "Product Management"
+                    )
+                  ),
+                  React.createElement(
+                    "li",
+                    null,
+                    React.createElement("i", { "class": "bx bx-chevron-right" }),
+                    " ",
+                    React.createElement(
+                      "a",
+                      { href: "#" },
+                      "Marketing"
+                    )
+                  ),
+                  React.createElement(
+                    "li",
+                    null,
+                    React.createElement("i", { "class": "bx bx-chevron-right" }),
+                    " ",
+                    React.createElement(
+                      "a",
+                      { href: "#" },
+                      "Graphic Design"
+                    )
                   )
                 )
               )
@@ -73,22 +169,22 @@ var PageFooter = function (_React$Component) {
           )
         ),
         React.createElement(
-          'div',
-          { 'class': 'container' },
+          "div",
+          { "class": "container" },
           React.createElement(
-            'div',
-            { 'class': 'copyright' },
-            '\xA9 Copyright ',
+            "div",
+            { "class": "copyright" },
+            "\xA9 Copyright ",
             React.createElement(
-              'strong',
+              "strong",
               null,
               React.createElement(
-                'span',
+                "span",
                 null,
-                'MEMA Co.,Ltd.'
+                "MEMA Co.,Ltd."
               )
             ),
-            '. All Rights Reserved'
+            ". All Rights Reserved"
           )
         )
       );
