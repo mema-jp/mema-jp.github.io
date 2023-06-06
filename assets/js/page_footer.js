@@ -46,7 +46,7 @@ var PageFooter = function (_React$Component) {
                   React.createElement(
                     "p",
                     null,
-                    "\u3012210-0844 ",
+                    "\u3012104-0033 ",
                     React.createElement("br", null),
                     "\u795E\u5948\u5DDD\u770C\u5DDD\u5D0E\u5E02\u5DDD\u5D0E\u533A",
                     React.createElement("br", null),

@@ -15,9 +15,8 @@ class PageFooter extends React.Component {
                 <div class="footer-info">
                   <h3>株式会社MEMA</h3>
                   <p>
-                    〒210-0844 <br />
-                    神奈川県川崎市川崎区<br />
-                    渡田新町１ー１ー６ー２<br />
+                    〒104-0033 <br />
+                    東京都中央区新川１−２４−７−２０３<br />
                     {/* <strong>Phone:</strong> 080-9373-5115<br/> */}
                     <strong>Email:</strong> info@mema.co.jp<br />
                   </p>
