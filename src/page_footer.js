@@ -43,7 +43,7 @@ class PageFooter extends React.Component {
               <div class="col-lg-3 col-md-6 footer-links">
                 <h4>サービス</h4>
                 <ul>
-                  <li><i class="bx bx-chevron-right"></i> <a href="service-web-mobile.html">Webと携帯アプリ開発</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="service-web-mobile.html">Webとモバイルアプリ開発</a></li>
                   <li><i class="bx bx-chevron-right"></i> <a href="service-ai.html">AI関連研究</a></li>
                   <li><i class="bx bx-chevron-right"></i> <a href="service-training.html">プログラマー向け研修</a></li>
                   <li><i class="bx bx-chevron-right"></i> <a href="service-agriculture.html">農業技術研究</a></li>

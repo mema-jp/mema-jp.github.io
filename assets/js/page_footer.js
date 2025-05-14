@@ -136,7 +136,7 @@ var PageFooter = (function (_React$Component) {
                     React.createElement(
                       "a",
                       { href: "service-web-mobile.html" },
-                      "Webと携帯アプリ開発"
+                      "Webとモバイルアプリ開発"
                     )
                   ),
                   React.createElement(
