@@ -44,6 +44,7 @@ class PageHeader extends React.Component {
           <nav id="navbar" class="navbar">
             <ul>
               <li><a href="index.html" className={this.state.active == "index.html" ? "active" : ""}>ホーム</a></li>
+              <li><a href="services.html" className={this.state.active == "services.html" || this.state.active.startsWith("service-") ? "active" : ""}>サービス</a></li>
               <li><a href="about.html" className={this.state.active == "about.html" ? "active" : ""}>会社情報</a></li>
               <li><a href="contact.html" className={this.state.active == "contact.html" ? "active" : ""}>お問い合わせ</a></li>
             </ul>

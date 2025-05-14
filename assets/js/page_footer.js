@@ -1,20 +1,20 @@
 'use strict';
 
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var PageFooter = function (_React$Component) {
+var PageFooter = (function (_React$Component) {
   _inherits(PageFooter, _React$Component);
 
   function PageFooter(props) {
     _classCallCheck(this, PageFooter);
 
-    return _possibleConstructorReturn(this, (PageFooter.__proto__ || Object.getPrototypeOf(PageFooter)).call(this, props));
+    _get(Object.getPrototypeOf(PageFooter.prototype), "constructor", this).call(this, props);
   }
 
   _createClass(PageFooter, [{
@@ -41,14 +41,14 @@ var PageFooter = function (_React$Component) {
                   React.createElement(
                     "h3",
                     null,
-                    "\u682A\u5F0F\u4F1A\u793EMEMA"
+                    "株式会社MEMA"
                   ),
                   React.createElement(
                     "p",
                     null,
-                    "\u3012104-0033 ",
+                    "〒104-0033 ",
                     React.createElement("br", null),
-                    "\u6771\u4EAC\u90FD\u4E2D\u592E\u533A\u65B0\u5DDD\uFF11\u2212\uFF12\uFF14\u2212\uFF17\u2212\uFF12\uFF10\uFF13",
+                    "東京都中央区新川１−２４−７−２０３",
                     React.createElement("br", null),
                     React.createElement(
                       "strong",
@@ -66,7 +66,7 @@ var PageFooter = function (_React$Component) {
                 React.createElement(
                   "h4",
                   null,
-                  "Useful Links"
+                  "リンク"
                 ),
                 React.createElement(
                   "ul",
@@ -79,7 +79,18 @@ var PageFooter = function (_React$Component) {
                     React.createElement(
                       "a",
                       { href: "/" },
-                      "\u30DB\u30FC\u30E0"
+                      "ホーム"
+                    )
+                  ),
+                  React.createElement(
+                    "li",
+                    null,
+                    React.createElement("i", { "class": "bx bx-chevron-right" }),
+                    " ",
+                    React.createElement(
+                      "a",
+                      { href: "services.html" },
+                      "サービス"
                     )
                   ),
                   React.createElement(
@@ -90,7 +101,18 @@ var PageFooter = function (_React$Component) {
                     React.createElement(
                       "a",
                       { href: "about.html" },
-                      "\u4F1A\u793E\u60C5\u5831"
+                      "会社情報"
+                    )
+                  ),
+                  React.createElement(
+                    "li",
+                    null,
+                    React.createElement("i", { "class": "bx bx-chevron-right" }),
+                    " ",
+                    React.createElement(
+                      "a",
+                      { href: "contact.html" },
+                      "お問い合わせ"
                     )
                   )
                 )
@@ -101,7 +123,7 @@ var PageFooter = function (_React$Component) {
                 React.createElement(
                   "h4",
                   null,
-                  "Our Services"
+                  "サービス"
                 ),
                 React.createElement(
                   "ul",
@@ -113,8 +135,8 @@ var PageFooter = function (_React$Component) {
                     " ",
                     React.createElement(
                       "a",
-                      { href: "#" },
-                      "Web Design"
+                      { href: "service-web-mobile.html" },
+                      "Webと携帯アプリ開発"
                     )
                   ),
                   React.createElement(
@@ -124,8 +146,8 @@ var PageFooter = function (_React$Component) {
                     " ",
                     React.createElement(
                       "a",
-                      { href: "#" },
-                      "Web Development"
+                      { href: "service-ai.html" },
+                      "AI関連研究"
                     )
                   ),
                   React.createElement(
@@ -135,8 +157,8 @@ var PageFooter = function (_React$Component) {
                     " ",
                     React.createElement(
                       "a",
-                      { href: "#" },
-                      "Product Management"
+                      { href: "service-training.html" },
+                      "プログラマー向け研修"
                     )
                   ),
                   React.createElement(
@@ -146,19 +168,8 @@ var PageFooter = function (_React$Component) {
                     " ",
                     React.createElement(
                       "a",
-                      { href: "#" },
-                      "Marketing"
-                    )
-                  ),
-                  React.createElement(
-                    "li",
-                    null,
-                    React.createElement("i", { "class": "bx bx-chevron-right" }),
-                    " ",
-                    React.createElement(
-                      "a",
-                      { href: "#" },
-                      "Graphic Design"
+                      { href: "service-agriculture.html" },
+                      "農業技術研究"
                     )
                   )
                 )
@@ -172,14 +183,14 @@ var PageFooter = function (_React$Component) {
           React.createElement(
             "div",
             { "class": "copyright" },
-            "\xA9 Copyright ",
+            "© Copyright ",
             React.createElement(
               "strong",
               null,
               React.createElement(
                 "span",
                 null,
-                "MEMA Co.,Ltd."
+                "株式会社MEMA (MEMA Co.,Ltd.)"
               )
             ),
             ". All Rights Reserved"
@@ -190,7 +201,20 @@ var PageFooter = function (_React$Component) {
   }]);
 
   return PageFooter;
-}(React.Component);
+})(React.Component);
 
 var domContainer = document.querySelector('#footer');
 ReactDOM.render(React.createElement(PageFooter, null), domContainer);
+/* <strong>Phone:</strong> 080-9373-5115<br/> */ /* <div class="social-links mt-3">
+                                                  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                                                  <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                                                  <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                                                  <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                                                  <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                                                 </div> */ /* <div class="col-lg-4 col-md-6 footer-newsletter">
+                                                            <h4>Our Newsletter</h4>
+                                                            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                                                            <form action="" method="post">
+                                                              <input type="email" name="email" /><input type="submit" value="Subscribe" />
+                                                            </form>
+                                                           </div> */

@@ -31,24 +31,22 @@ class PageFooter extends React.Component {
               </div>
 
               <div class="col-lg-2 col-md-6 footer-links">
-                <h4>Useful Links</h4>
+                <h4>リンク</h4>
                 <ul>
                   <li><i class="bx bx-chevron-right"></i> <a href="/">ホーム</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="services.html">サービス</a></li>
                   <li><i class="bx bx-chevron-right"></i> <a href="about.html">会社情報</a></li>
-                  {/* <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> */}
+                  <li><i class="bx bx-chevron-right"></i> <a href="contact.html">お問い合わせ</a></li>
                 </ul>
               </div>
 
               <div class="col-lg-3 col-md-6 footer-links">
-                <h4>Our Services</h4>
+                <h4>サービス</h4>
                 <ul>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="service-web-mobile.html">Webと携帯アプリ開発</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="service-ai.html">AI関連研究</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="service-training.html">プログラマー向け研修</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="service-agriculture.html">農業技術研究</a></li>
                 </ul>
               </div>
 
@@ -65,7 +63,7 @@ class PageFooter extends React.Component {
         </div>
         <div class="container">
           <div class="copyright">
-            &copy; Copyright <strong><span>MEMA Co.,Ltd.</span></strong>. All Rights Reserved
+            &copy; Copyright <strong><span>株式会社MEMA (MEMA Co.,Ltd.)</span></strong>. All Rights Reserved
           </div>
         </div>
       </React.Fragment>

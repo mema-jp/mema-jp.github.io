@@ -37,6 +37,90 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Skills Section
+--------------------------------------------------------------*/
+.skill-category-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #444444;
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 15px;
+  border-left: 4px solid #d9232d;
+}
+.skills-container {
+  margin-top: 25px;
+}
+.skill-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.skill-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  border-radius: 50%;
+  background: #f8f9fa;
+  border: 1px solid #eaeaea;
+}
+.skill-img {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+}
+.text-icon {
+  font-weight: bold;
+  font-size: 18px;
+  color: #d9232d;
+}
+.skill-info {
+  flex: 1;
+}
+.skill-info h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.progress {
+  height: 8px;
+  background-color: #e9ecef;
+  border-radius: 4px;
+}
+.progress-bar {
+  background-color: #d9232d;
+}
+
+/*--------------------------------------------------------------
+# Case Studies
+--------------------------------------------------------------*/
+.icon-box-sm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #f1f6fe;
+}
+.icon-box-sm i {
+  font-size: 24px;
+  color: #d9232d;
+}
+.case-study {
+  background: #f8f9fa;
+  border-left: 4px solid #d9232d;
+  padding: 15px;
+  border-radius: 0 4px 4px 0;
+}
+.case-study h5 {
+  color: #d9232d;
+  margin-bottom: 8px;
+}
+
+/*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
