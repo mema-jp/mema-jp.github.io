@@ -1,3 +1,37 @@
-# https://www.robotstxt.org/robotstxt.html
+# robots.txt for https://mema.co.jp/
+# Allow all crawlers
+
 User-agent: *
-Disallow:
+Allow: /
+
+# Block admin and private directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+
+# Sitemap location
+Sitemap: https://mema.co.jp/sitemap.xml
+
+# Crawl-delay for bots (in seconds)
+Crawl-delay: 1
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 0
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 1
