@@ -12,6 +12,21 @@
 	font-family: 'pangmenzhengdaobiaotiti';
 	src: url(/assets/font/PangMenZhengDaoBiaoTiTi/PangMenZhengDaoBiaoTiTi-1.ttf);
 }
+
+/* Color Variables - Tech Blue primary + Red accent for brand */
+:root {
+  --primary-color: #0066FF;
+  --primary-hover: #0052CC;
+  --primary-light: #E6F0FF;
+  --accent-red: #d9232d;
+  --accent-red-hover: #e24d55;
+  --dark-navy: #0A1628;
+  --medium-navy: #1a2332;
+  --border-light: #e8ecf4;
+  --gradient-hero: linear-gradient(135deg, rgba(10, 22, 40, 0.9) 0%, rgba(0, 102, 255, 0.8) 100%);
+  --gradient-tech: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -19,11 +34,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #d9232d;
+  color: var(--primary-color);
 }
 
 a:hover {
-  color: #e24d55;
+  color: var(--primary-hover);
   text-decoration: none;
 }
 
@@ -46,7 +61,7 @@ h6 {
   margin-bottom: 20px;
   position: relative;
   padding-left: 15px;
-  border-left: 4px solid #d9232d;
+  border-left: 4px solid #0066FF;
 }
 .skills-container {
   margin-top: 25px;
@@ -75,7 +90,7 @@ h6 {
 .text-icon {
   font-weight: bold;
   font-size: 18px;
-  color: #d9232d;
+  color: #0066FF;
 }
 .skill-info {
   flex: 1;
@@ -90,7 +105,7 @@ h6 {
   border-radius: 4px;
 }
 .progress-bar {
-  background-color: #d9232d;
+  background-color: #0066FF;
 }
 
 /*--------------------------------------------------------------
@@ -107,16 +122,16 @@ h6 {
 }
 .icon-box-sm i {
   font-size: 24px;
-  color: #d9232d;
+  color: #0066FF;
 }
 .case-study {
   background: #f8f9fa;
-  border-left: 4px solid #d9232d;
+  border-left: 4px solid #0066FF;
   padding: 15px;
   border-radius: 0 4px 4px 0;
 }
 .case-study h5 {
-  color: #d9232d;
+  color: #0066FF;
   margin-bottom: 8px;
 }
 
@@ -130,7 +145,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #d9232d;
+  background: #0066FF;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -237,12 +252,12 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #d9232d;
+  color: #0066FF;
 }
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #d9232d;
+  background: #0066FF;
   padding: 8px 25px;
   margin-left: 30px;
   border-radius: 4px;
@@ -289,7 +304,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #d9232d;
+  color: #0066FF;
 }
 
 .navbar .dropdown:hover>ul {
@@ -388,7 +403,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #d9232d;
+  color: #0066FF;
 }
 
 .navbar-mobile .getstarted,
@@ -423,7 +438,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #d9232d;
+  color: #0066FF;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -557,7 +572,7 @@ h6 {
 
 #hero .carousel-indicators li.active {
   opacity: 1;
-  background: #d9232d;
+  background: #0066FF;
 }
 
 #hero .btn-get-started {
@@ -573,7 +588,7 @@ h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  background: #d9232d;
+  background: #0066FF;
 }
 
 #hero .btn-get-started:hover {
@@ -748,7 +763,7 @@ section {
   top: 7px;
   position: absolute;
   font-size: 20px;
-  color: #d9232d;
+  color: #0066FF;
 }
 
 .about .content p:last-child {
@@ -793,7 +808,7 @@ section {
 
 .services .icon-box i {
   float: left;
-  color: #d9232d;
+  color: #0066FF;
   font-size: 40px;
 }
 
@@ -816,7 +831,7 @@ section {
 }
 
 .services .icon-box:hover h4 a {
-  color: #d9232d;
+  color: #0066FF;
 }
 
 /*--------------------------------------------------------------
@@ -850,7 +865,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #d9232d;
+  background: #0066FF;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -963,11 +978,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #d9232d;
+  border: 1px solid #0066FF;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #d9232d;
+  background-color: #0066FF;
 }
 
 .portfolio-details .portfolio-info {
@@ -1092,7 +1107,7 @@ section {
 }
 
 .team .member .social a:hover {
-  background: #d9232d;
+  background: #0066FF;
 }
 
 .team .member .social a+a {
@@ -1158,12 +1173,12 @@ section {
 }
 
 .features .nav-link:hover {
-  color: #d9232d;
+  color: #0066FF;
 }
 
 .features .nav-link.active {
-  color: #d9232d;
-  border-color: #d9232d;
+  color: #0066FF;
+  border-color: #0066FF;
 }
 
 .features .tab-pane.active {
@@ -1194,7 +1209,7 @@ section {
 
   .features .nav-link.active {
     color: #fff;
-    background: #d9232d;
+    background: #0066FF;
   }
 }
 
@@ -1223,7 +1238,7 @@ section {
 
 .pricing h4 {
   font-size: 36px;
-  color: #d9232d;
+  color: #0066FF;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
@@ -1255,7 +1270,7 @@ section {
 }
 
 .pricing ul i {
-  color: #d9232d;
+  color: #0066FF;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1273,7 +1288,7 @@ section {
 }
 
 .pricing .btn-buy {
-  background: #d9232d;
+  background: #0066FF;
   display: inline-block;
   padding: 8px 35px 9px 35px;
   border-radius: 4px;
@@ -1292,7 +1307,7 @@ section {
 
 .pricing .featured h3 {
   color: #fff;
-  background: #d9232d;
+  background: #0066FF;
 }
 
 .pricing .advanced {
@@ -1304,7 +1319,7 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #d9232d;
+  background: #0066FF;
   color: #fff;
 }
 
@@ -1510,7 +1525,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #d9232d;
+  border-color: #0066FF;
 }
 
 .contact .php-email-form input {
@@ -1522,7 +1537,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #d9232d;
+  background: #0066FF;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1586,7 +1601,7 @@ section {
 }
 
 .blog .entry .entry-title a:hover {
-  color: #d9232d;
+  color: #0066FF;
 }
 
 .blog .entry .entry-meta {
@@ -1631,7 +1646,7 @@ section {
 
 .blog .entry .entry-content .read-more a {
   display: inline-block;
-  background: #d9232d;
+  background: #0066FF;
   color: #fff;
   padding: 6px 20px;
   transition: 0.3s;
@@ -1695,7 +1710,7 @@ section {
 }
 
 .blog .entry .entry-footer a:hover {
-  color: #d9232d;
+  color: #0066FF;
 }
 
 .blog .entry .entry-footer .cats {
@@ -1804,7 +1819,7 @@ section {
 }
 
 .blog .blog-comments .comment h5 a:hover {
-  color: #d9232d;
+  color: #0066FF;
 }
 
 .blog .blog-comments .comment h5 .reply {
@@ -1905,7 +1920,7 @@ section {
 
 .blog .blog-pagination li.active,
 .blog .blog-pagination li:hover {
-  background: #d9232d;
+  background: #0066FF;
 }
 
 .blog .blog-pagination li.active a,
@@ -1956,7 +1971,7 @@ section {
   font-size: 16px;
   padding: 0 15px;
   margin: -1px;
-  background: #d9232d;
+  background: #0066FF;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -1986,7 +2001,7 @@ section {
 }
 
 .blog .sidebar .categories ul a:hover {
-  color: #d9232d;
+  color: #0066FF;
 }
 
 .blog .sidebar .categories ul a span {
@@ -2016,7 +2031,7 @@ section {
 }
 
 .blog .sidebar .recent-posts h4 a:hover {
-  color: #d9232d;
+  color: #0066FF;
 }
 
 .blog .sidebar .recent-posts time {
@@ -2052,8 +2067,8 @@ section {
 
 .blog .sidebar .tags ul a:hover {
   color: #fff;
-  border: 1px solid #d9232d;
-  background: #d9232d;
+  border: 1px solid #0066FF;
+  background: #0066FF;
 }
 
 .blog .sidebar .tags ul a span {
@@ -2113,7 +2128,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #d9232d;
+  background: #0066FF;
   color: #fff;
   text-decoration: none;
 }
@@ -2187,7 +2202,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #d9232d;
+  background: #0066FF;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -2244,14 +2259,14 @@ section {
 .ai-efficiency .stat-item h4 {
   font-size: 28px;
   font-weight: 700;
-  color: #d9232d;
+  color: #0066FF;
   margin-bottom: 10px;
 }
 
 .ai-efficiency .stat-item h4 i {
   font-size: 32px;
   margin-right: 10px;
-  color: #d9232d;
+  color: #0066FF;
 }
 
 .ai-efficiency .stat-item h4 span {
@@ -2288,5 +2303,827 @@ section {
   top: 7px;
   position: absolute;
   font-size: 20px;
-  color: #d9232d;
+  color: #0066FF;
+}
+
+/*--------------------------------------------------------------
+# MEMA Method Section
+--------------------------------------------------------------*/
+.mema-method {
+  padding: 80px 0;
+  background: var(--gradient-tech);
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.mema-method::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)" /></svg>');
+  opacity: 0.5;
+}
+
+.mema-method .container {
+  position: relative;
+  z-index: 1;
+}
+
+.mema-method .section-title h2 {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.mema-method .section-title p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.method-box {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 35px 25px;
+  transition: all 0.3s ease;
+  height: 100%;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 30px;
+}
+
+.method-box:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.method-box.featured {
+  border: 2px solid var(--primary-color);
+  box-shadow: 0 10px 30px rgba(0, 102, 255, 0.3);
+  background: rgba(255, 255, 255, 0.15);
+  position: relative;
+}
+
+.method-box.featured::before {
+  content: "推奨";
+  position: absolute;
+  top: -12px;
+  right: 20px;
+  background: var(--primary-color);
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.method-box .icon-box {
+  width: 70px;
+  height: 70px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.method-box:hover .icon-box {
+  background: var(--primary-color);
+  transform: rotate(360deg);
+}
+
+.method-box .icon-box i {
+  font-size: 36px;
+  color: #fff;
+}
+
+.method-box h4 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.method-box p {
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.method-box .benefit-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.method-box .benefit-list li {
+  padding: 8px 0;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.85);
+  display: flex;
+  align-items: center;
+}
+
+.method-box .benefit-list li i {
+  font-size: 14px;
+  margin-right: 10px;
+  color: var(--primary-color);
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* Process Flow Comparison */
+.process-flow {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  padding: 40px;
+  color: #444;
+}
+
+.process-flow h4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+}
+
+.comparison-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.traditional,
+.mema-way {
+  background: #f8f9fa;
+  border-radius: 15px;
+  padding: 25px;
+  position: relative;
+  border-left: 5px solid #ddd;
+}
+
+.mema-way {
+  border-left-color: var(--primary-color);
+  background: linear-gradient(135deg, #E6F0FF 0%, #f8f9fa 100%);
+}
+
+.traditional .label,
+.mema-way .label {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 15px;
+  padding: 5px 15px;
+  border-radius: 20px;
+  background: #fff;
+  color: #333;
+}
+
+.mema-way .label {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.timeline {
+  font-size: 14px;
+  line-height: 2;
+  color: #666;
+  margin: 10px 0;
+  font-family: 'Courier New', monospace;
+}
+
+.timeline.ai-powered {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.total {
+  display: block;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.total.highlight {
+  color: var(--primary-color);
+  font-size: 24px;
+}
+
+.total small {
+  font-size: 14px;
+  color: #666;
+  font-weight: 400;
+}
+
+/* Responsive adjustments for MEMA Method */
+@media (max-width: 992px) {
+  .method-box {
+    margin-bottom: 20px;
+  }
+
+  .comparison-chart {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mema-method {
+    padding: 60px 0;
+  }
+
+  .mema-method .section-title h2 {
+    font-size: 32px;
+  }
+
+  .mema-method .section-title p {
+    font-size: 16px;
+  }
+
+  .process-flow {
+    padding: 25px 15px;
+  }
+
+  .timeline {
+    font-size: 12px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Mobile Responsive Enhancements
+--------------------------------------------------------------*/
+/* Hero Section Mobile Enhancements */
+@media (max-width: 768px) {
+  #hero h2 {
+    font-size: 2.2rem;
+    line-height: 1.3;
+  }
+
+  #hero p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+}
+
+/* Highlight Badge for Mobile */
+.highlight-badge {
+  display: inline-block;
+  background: var(--primary-color);
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 15px 0;
+  box-shadow: 0 5px 20px rgba(0, 102, 255, 0.4);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: 0 5px 20px rgba(0, 102, 255, 0.4);
+  }
+  50% {
+    box-shadow: 0 8px 30px rgba(0, 102, 255, 0.6);
+  }
+}
+
+@media (max-width: 768px) {
+  .highlight-badge {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 15px 20px;
+  }
+
+  /* AI Stats Mobile Enhancement */
+  .ai-stats h4 {
+    font-size: 2rem;
+  }
+
+  .ai-efficiency .stat-item {
+    margin-bottom: 25px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Modern SaaS Design Enhancements - 2026
+--------------------------------------------------------------*/
+
+/* Updated Color Scheme - Clean Tech Blue / Dark Navy */
+:root {
+  --primary-color: #0066FF;
+  --primary-hover: #0052CC;
+  --primary-light: #E6F0FF;
+  --accent-red: #d9232d;
+  --accent-red-hover: #e24d55;
+  --dark-navy: #0A1628;
+  --medium-navy: #1a2332;
+  --light-gray: #F8F9FA;
+  --border-light: #E5E7EB;
+  --gradient-tech: linear-gradient(135deg, #0066FF 0%, #0052CC 100%);
+  --gradient-hero: linear-gradient(135deg, rgba(10, 22, 40, 0.9) 0%, rgba(0, 102, 255, 0.8) 100%);
+}
+
+/* Typography Enhancements */
+h1, h2, h3 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: var(--dark-navy);
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #6B7280;
+  line-height: 1.8;
+}
+
+/*--------------------------------------------------------------
+# Hero Section - Modern SaaS Style
+--------------------------------------------------------------*/
+/* Override background gradient - keep original positioning intact */
+#hero h2 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 30px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+}
+
+#hero p {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+
+/* Hero CTA Buttons */
+.hero-cta-group {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn-primary-cta, .btn-secondary-cta {
+  display: inline-block;
+  padding: 16px 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  border: 2px solid transparent;
+}
+
+.btn-primary-cta {
+  background: var(--primary-color);
+  color: #fff;
+  box-shadow: 0 10px 30px rgba(0, 102, 255, 0.3);
+}
+
+.btn-primary-cta:hover {
+  background: var(--primary-hover);
+  transform: translateY(-3px);
+  box-shadow: 0 15px 40px rgba(0, 102, 255, 0.4);
+  color: #fff;
+}
+
+.btn-secondary-cta {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.btn-secondary-cta:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-3px);
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Stats Section - Big Numbers
+--------------------------------------------------------------*/
+.stats-section {
+  background: var(--dark-navy);
+  padding: 80px 0;
+  color: #fff;
+}
+
+.stat-box {
+  text-align: center;
+  padding: 40px 20px;
+  transition: transform 0.3s ease;
+}
+
+.stat-box:hover {
+  transform: translateY(-10px);
+}
+
+.stat-number {
+  display: inline-block;
+  font-size: 5rem;
+  font-weight: 800;
+  color: var(--primary-color);
+  line-height: 1;
+  margin-bottom: 10px;
+  animation: fadeInUp 1s ease;
+}
+
+.stat-unit {
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-left: 5px;
+  vertical-align: super;
+}
+
+.stat-label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+.stat-description {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/*--------------------------------------------------------------
+# Why Choose MEMA Section
+--------------------------------------------------------------*/
+.why-mema {
+  padding: 100px 0;
+  background: var(--light-gray);
+}
+
+.feature-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px 30px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  height: 100%;
+  border: 1px solid var(--border-light);
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 102, 255, 0.15);
+  border-color: var(--primary-color);
+}
+
+.feature-icon {
+  width: 70px;
+  height: 70px;
+  background: var(--primary-light);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+  transition: all 0.3s ease;
+}
+
+.feature-icon i {
+  font-size: 32px;
+  color: var(--primary-color);
+}
+
+.feature-card:hover .feature-icon {
+  background: var(--primary-color);
+  transform: scale(1.1);
+}
+
+.feature-card:hover .feature-icon i {
+  color: #fff;
+}
+
+.feature-card h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--dark-navy);
+  margin-bottom: 15px;
+}
+
+.feature-card p {
+  color: #6B7280;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+.feature-metric {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding-top: 20px;
+  border-top: 2px solid var(--border-light);
+}
+
+.metric-value {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--primary-color);
+}
+
+.metric-label {
+  font-size: 0.9rem;
+  color: #6B7280;
+  font-weight: 500;
+}
+
+.btn-primary-large {
+  display: inline-block;
+  background: var(--primary-color);
+  color: #fff;
+  padding: 18px 50px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 30px rgba(0, 102, 255, 0.3);
+  text-decoration: none;
+}
+
+.btn-primary-large:hover {
+  background: var(--primary-hover);
+  transform: translateY(-5px);
+  box-shadow: 0 20px 50px rgba(0, 102, 255, 0.4);
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Contact CTA Section
+--------------------------------------------------------------*/
+.contact-cta {
+  background: linear-gradient(135deg, var(--dark-navy) 0%, var(--medium-navy) 100%);
+  padding: 100px 0;
+  color: #fff;
+}
+
+.contact-cta h2 {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 25px;
+  font-weight: 800;
+}
+
+.contact-cta .lead {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 50px;
+}
+
+.cta-benefits {
+  margin-bottom: 50px;
+}
+
+.cta-benefits i {
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.cta-benefits h5 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.cta-benefits p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.btn-primary-cta-large, .btn-secondary-cta-large {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 45px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-primary-cta-large {
+  background: var(--primary-color);
+  color: #fff;
+  box-shadow: 0 15px 40px rgba(0, 102, 255, 0.4);
+}
+
+.btn-primary-cta-large:hover {
+  background: var(--primary-hover);
+  transform: translateY(-5px);
+  box-shadow: 0 20px 50px rgba(0, 102, 255, 0.5);
+  color: #fff;
+}
+
+.btn-secondary-cta-large {
+  background: transparent;
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.btn-secondary-cta-large:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-5px);
+  color: #fff;
+}
+
+.contact-note {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.95rem;
+  margin-top: 30px;
+}
+
+.contact-note i {
+  color: var(--primary-color);
+  margin-right: 8px;
+}
+
+/*--------------------------------------------------------------
+# Scroll Animations
+--------------------------------------------------------------*/
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Intersection Observer Animation Classes */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+
+.animate-on-scroll.animated {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animate-left {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: all 0.8s ease;
+}
+
+.animate-left.animated {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.animate-right {
+  opacity: 0;
+  transform: translateX(30px);
+  transition: all 0.8s ease;
+}
+
+.animate-right.animated {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/*--------------------------------------------------------------
+# Responsive Design
+--------------------------------------------------------------*/
+@media (max-width: 992px) {
+  #hero h2 {
+    font-size: 2.5rem;
+  }
+
+  #hero p {
+    font-size: 1.2rem;
+  }
+
+  .stat-number {
+    font-size: 3.5rem;
+  }
+
+  .stat-unit {
+    font-size: 1.8rem;
+  }
+
+  .contact-cta h2 {
+    font-size: 2.2rem;
+  }
+
+  .btn-primary-cta-large, .btn-secondary-cta-large {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 2rem;
+  }
+
+  #hero h2 {
+    font-size: 2rem;
+  }
+
+  #hero p {
+    font-size: 1.1rem;
+  }
+
+  .hero-cta-group {
+    flex-direction: column;
+  }
+
+  .btn-primary-cta, .btn-secondary-cta {
+    width: 100%;
+    text-align: center;
+  }
+
+  .stat-box {
+    margin-bottom: 40px;
+  }
+
+  .stat-number {
+    font-size: 3rem;
+  }
+
+  .feature-card {
+    margin-bottom: 30px;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+  }
+
+  .contact-cta h2 {
+    font-size: 1.8rem;
+  }
 }
