@@ -37,63 +37,183 @@
 
   <main id="main">
 
-    <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs">
+    <!-- ======= Services Hero ======= -->
+    <section class="service-hero service-hero-services">
       <div class="container">
-
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>サービス</h2>
-          <ol>
-            <li><a href="index.html">ホーム</a></li>
-            <li>サービス</li>
-          </ol>
+        <div class="row align-items-center">
+          <div class="col-lg-8">
+            <div class="service-badges">
+              <span class="service-badge badge-speed"><i class="ri-rocket-line"></i> AI駆動型開発</span>
+              <span class="service-badge badge-efficiency"><i class="ri-shield-check-line"></i> 品質と速度の両立</span>
+            </div>
+            <h1>サービス一覧</h1>
+            <p class="lead">「何ができるか」より「何を節約できるか」― AI技術を活用した高速開発により、品質を維持したまま開発期間を大幅に短縮。4つのサービスで、お客様のビジネス成長を加速させます。</p>
+            <div class="hero-stats">
+              <div class="hero-stat">
+                <span class="hero-stat-value">80%</span>
+                <span class="hero-stat-label">開発効率向上</span>
+              </div>
+              <div class="hero-stat">
+                <span class="hero-stat-value">2週間</span>
+                <span class="hero-stat-label">最短MVP</span>
+              </div>
+              <div class="hero-stat">
+                <span class="hero-stat-value">92%</span>
+                <span class="hero-stat-label">AI判定精度</span>
+              </div>
+              <div class="hero-stat">
+                <span class="hero-stat-value">4</span>
+                <span class="hero-stat-label">サービス</span>
+              </div>
+            </div>
+          </div>
         </div>
-
       </div>
-    </section><!-- End Breadcrumbs -->
+    </section><!-- End Services Hero -->
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <section id="services-list" class="service-details">
       <div class="container">
 
-        <div class="row">
-          <div class="col-md-6 mb-4">
-            <div class="icon-box">
-              <i class="bi bi-laptop"></i>
-              <h4><a href="service-web-mobile.html">AI高速受託開発（Web・モバイル）</a></h4>
-              <p>AI技術を活用した高速開発により、MVP（最小可行性製品）から本格開発まで、品質を維持したまま<strong class="text-primary">開発期間を大幅に短縮</strong>します。Claude Code × モジュール化アーキテクチャという技術基盤により、市場投入スピードで競争優位性を確保します。</p>
-              <div class="service-benefit mt-3">
-                <strong>お客様のメリット:</strong> 早期市場投入により、顧客フィードバックを迅速に収集できます
+        <!-- Service 1: Web/Mobile -->
+        <div class="service-card-large">
+          <div class="row align-items-center">
+            <div class="col-lg-8">
+              <div class="service-card-header">
+                <div class="service-card-icon">
+                  <i class="ri-smartphone-line"></i>
+                </div>
+                <div>
+                  <div class="service-badges mb-2">
+                    <span class="service-badge badge-speed"><i class="ri-rocket-line"></i> 最短2週間でMVP納品</span>
+                    <span class="service-badge badge-efficiency"><i class="ri-timer-flash-line"></i> 開発サイクル60%圧縮</span>
+                  </div>
+                  <h3><a href="service-web-mobile.html">AI高速受託開発（Web・モバイル）</a></h3>
+                </div>
+              </div>
+              <p>「アイデアを最速で形にしたい」― そんなご要望に応えます。AI駆動型ワークフローとモジュール化アセットにより、<strong>スピード重視の商用アプリ開発</strong>を実現。市場検証を素早く回し、ビジネス仮説を迅速に検証できます。</p>
+              <div class="service-card-features">
+                <span><i class="ri-check-line"></i> React / Vue / Next.js</span>
+                <span><i class="ri-check-line"></i> iOS / Android</span>
+                <span><i class="ri-check-line"></i> クロスプラットフォーム</span>
+                <span><i class="ri-check-line"></i> API設計・開発</span>
+              </div>
+              <div class="service-card-benefit">
+                <strong>お客様のメリット:</strong> 早期市場投入で競合に先んじ、顧客フィードバックを迅速に収集
+              </div>
+              <a href="service-web-mobile.html" class="service-card-link">詳細を見る <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="col-lg-4 d-none d-lg-block">
+              <div class="service-card-visual service-card-visual-blue">
+                <i class="ri-code-s-slash-line"></i>
               </div>
             </div>
           </div>
-          <div class="col-md-6 mb-4">
-            <div class="icon-box">
-              <i class="bi bi-braces"></i>
-              <h4><a href="service-ai.html">AI統合研究開発</a></h4>
-              <p>AI技術の実ビジネスへの統合実装を支援します。Grace農機プロジェクトにおける<strong class="text-primary">熟度判定精度92%</strong>という実証実績をベースに、お客様のビジネス課題に最適なAIソリューションをご提案します。理論だけでなく、実際に稼働するシステムの開発・実装まで一貫してサポートします。</p>
-              <div class="service-benefit mt-3">
-                <strong>お客様のメリット:</strong> 現場実装で検証済みの確実な技術支援をご提供します
+        </div>
+
+        <!-- Service 2: AI Solution -->
+        <div class="service-card-large">
+          <div class="row align-items-center">
+            <div class="col-lg-8">
+              <div class="service-card-header">
+                <div class="service-card-icon service-card-icon-purple">
+                  <i class="ri-lightbulb-flash-line"></i>
+                </div>
+                <div>
+                  <div class="service-badges mb-2">
+                    <span class="service-badge badge-research"><i class="ri-flask-line"></i> 高難度AI課題に対応</span>
+                    <span class="service-badge badge-field"><i class="ri-settings-4-line"></i> 現場実装まで一貫支援</span>
+                  </div>
+                  <h3><a href="service-ai.html">AIソリューション・社会実装研究</a></h3>
+                </div>
+              </div>
+              <p>「既存のAIツールでは解決できない」複雑な業務課題に挑みます。アルゴリズム研究からハードウェア統合、現場での実証実験まで、<strong>フルスタックのAI社会実装</strong>を支援。Grace農機プロジェクトで<strong>熟度判定精度92%</strong>を達成した実績が証明する、深度ある技術力。</p>
+              <div class="service-card-features">
+                <span><i class="ri-check-line"></i> カスタムアルゴリズム</span>
+                <span><i class="ri-check-line"></i> エッジAI実装</span>
+                <span><i class="ri-check-line"></i> ハードウェア統合</span>
+                <span><i class="ri-check-line"></i> 現場PoC</span>
+              </div>
+              <div class="service-card-benefit">
+                <strong>お客様のメリット:</strong> 机上の提案ではなく、現場で動く実証済みソリューション
+              </div>
+              <a href="service-ai.html" class="service-card-link">詳細を見る <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="col-lg-4 d-none d-lg-block">
+              <div class="service-card-visual service-card-visual-purple">
+                <i class="ri-cpu-line"></i>
               </div>
             </div>
           </div>
-          <div class="col-md-6 mb-4">
-            <div class="icon-box">
-              <i class="bi bi-people"></i>
-              <h4><a href="service-training.html">AI共創開発 + ナレッジ移転</a></h4>
-              <p>システム納品と並行して、<strong class="text-primary">AI開発ノウハウの知識移転</strong>を実施します。座学形式ではなく、実際のプロジェクトを通じた実践的な技術習得支援により、お客様チームの段階的な内製化を実現します。開発完了後も、継続的な技術サポート体制を整えています。</p>
-              <div class="service-benefit mt-3">
-                <strong>お客様のメリット:</strong> システム納品と技術習得を同時に実現します
+        </div>
+
+        <!-- Service 3: Training -->
+        <div class="service-card-large">
+          <div class="row align-items-center">
+            <div class="col-lg-8">
+              <div class="service-card-header">
+                <div class="service-card-icon service-card-icon-orange">
+                  <i class="ri-team-line"></i>
+                </div>
+                <div>
+                  <div class="service-badges mb-2">
+                    <span class="service-badge badge-training"><i class="ri-team-line"></i> 伴走型支援</span>
+                    <span class="service-badge badge-growth"><i class="ri-arrow-up-circle-line"></i> 外部依存ゼロ化</span>
+                  </div>
+                  <h3><a href="service-training.html">AI共創開発 + ナレッジ移転</a></h3>
+                </div>
+              </div>
+              <p>システム納品と並行して、<strong>AI開発ノウハウの知識移転</strong>を実施します。座学形式ではなく、実際のプロジェクトを通じた実践的な技術習得支援により、お客様チームの段階的な内製化を実現。開発完了後も、継続的な技術サポート体制を整えています。</p>
+              <div class="service-card-features">
+                <span><i class="ri-check-line"></i> プロジェクトベース学習</span>
+                <span><i class="ri-check-line"></i> Claude Code活用</span>
+                <span><i class="ri-check-line"></i> 継続サポート</span>
+                <span><i class="ri-check-line"></i> 成果保証型</span>
+              </div>
+              <div class="service-card-benefit">
+                <strong>お客様のメリット:</strong> システム納品と技術習得を同時に実現、次回から内製可能に
+              </div>
+              <a href="service-training.html" class="service-card-link">詳細を見る <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="col-lg-4 d-none d-lg-block">
+              <div class="service-card-visual service-card-visual-orange">
+                <i class="ri-user-follow-line"></i>
               </div>
             </div>
           </div>
-          <div class="col-md-6 mb-4">
-            <div class="icon-box">
-              <i class="ri-plant-line"></i>
-              <h4><a href="service-agriculture.html">農業×AI統合研究</a></h4>
-              <p>Grace農機 × AIシステム統合プロジェクトで培った、ソフトウェアとハードウェアの統合開発力を活かします。<strong class="text-primary">熟度判定精度92%</strong>という実証実績に基づく技術ノウハウは、農業分野だけでなく、製造業など他業界への応用も可能です。現場での実装経験を重視した、実践的な開発支援をご提供します。</p>
-              <div class="service-benefit mt-3">
-                <strong>お客様のメリット:</strong> ソフト+ハード両面からの総合的な開発支援が可能です
+        </div>
+
+        <!-- Service 4: Agriculture -->
+        <div class="service-card-large">
+          <div class="row align-items-center">
+            <div class="col-lg-8">
+              <div class="service-card-header">
+                <div class="service-card-icon service-card-icon-green">
+                  <i class="ri-plant-line"></i>
+                </div>
+                <div>
+                  <div class="service-badges mb-2">
+                    <span class="service-badge badge-agriculture"><i class="ri-plant-line"></i> Field-Proven品質</span>
+                    <span class="service-badge badge-innovation"><i class="ri-cpu-line"></i> エッジAI実装</span>
+                  </div>
+                  <h3><a href="service-agriculture.html">農業×AI統合研究</a></h3>
+                </div>
+              </div>
+              <p>Grace農機 × AIシステム統合プロジェクトで培った、ソフトウェアとハードウェアの統合開発力を活かします。<strong>熟度判定精度92%</strong>という実証実績に基づく技術ノウハウは、農業分野だけでなく、製造業など他業界への応用も可能。現場での実装経験を重視した、実践的な開発支援をご提供します。</p>
+              <div class="service-card-features">
+                <span><i class="ri-check-line"></i> ハードウェア統合</span>
+                <span><i class="ri-check-line"></i> 現場実証</span>
+                <span><i class="ri-check-line"></i> エッジAI</span>
+                <span><i class="ri-check-line"></i> 他業界転用可</span>
+              </div>
+              <div class="service-card-benefit">
+                <strong>お客様のメリット:</strong> ソフト+ハード両面からの総合的な開発支援、市場競争力向上
+              </div>
+              <a href="service-agriculture.html" class="service-card-link">詳細を見る <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="col-lg-4 d-none d-lg-block">
+              <div class="service-card-visual service-card-visual-green">
+                <i class="ri-seedling-line"></i>
               </div>
             </div>
           </div>
@@ -102,119 +222,83 @@
       </div>
     </section><!-- End Services Section -->
 
-    <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
+    <!-- ======= Promises Section ======= -->
+    <section id="promises" class="promises-section">
       <div class="container">
-
         <div class="section-title">
           <h2>MEMAの5つの約束</h2>
           <p>スピード × 品質 × 技術革新で、お客様のビジネス成長を加速させます</p>
         </div>
 
-        <div class="row">
-          <div class="col-lg-3">
-            <ul class="nav nav-tabs">
-              <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">AI技術による開発効率化</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">AI Native開発文化</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Field-Proven品質</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">外部依存ゼロ化支援</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">成果コミット型</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-9 mt-4 mt-lg-0">
-            <div class="tab-content">
-              <div class="tab-pane active show" id="tab-1">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>AI技術による開発効率化 ― 圧倒的な短納期を実現</h3>
-                    <p class="fst-italic">品質を維持したまま、開発期間を大幅に短縮します</p>
-                    <p><strong>従来の開発手法:</strong> 段階的な要件定義・設計・実装により、長期間を要する<br>
-                    <strong>MEMAのAI活用開発:</strong> Claude Code × モジュール化アーキテクチャにより、<strong>開発効率80%向上を実証</strong><br><br>
-                    AI駆動型開発により、品質を犠牲にすることなく開発期間を大幅に短縮します。この効率化で生まれる時間的・コスト的メリットを、<strong>お客様のビジネス価値として還元</strong>することが、MEMAのビジネスモデルです。<br><br>
-                    <strong>お客様のメリット:</strong> 早期市場投入により、競争優位性を確保し、顧客フィードバックを迅速に収集できます。<br>
-                    <small>※開発効率は、プロジェクト規模・要件により変動します。</small></p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/features-1.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-2">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>AI Native開発文化 ― 創業時からの技術基盤</h3>
-                    <p class="fst-italic">Claude Code、GitHub Copilotを開発プロセスに統合し、効率化を実現</p>
-                    <p><strong>一般的なAI導入:</strong> 既存プロセスにAIツールを追加 → 限定的な効果<br>
-                    <strong>MEMAのアプローチ:</strong> AI活用を前提とした開発プロセス設計 → 開発効率80%向上を実現<br><br>
-                    創業時からAI技術を開発プロセスの中核に据え、コード生成自動化率60%、ドキュメント網羅率100%、バグ検出精度90%以上という実績を積み重ねてきました。この<strong>AI活用ノウハウを、お客様のプロジェクトにも適用</strong>いたします。<br><br>
-                    <strong>お客様のメリット:</strong> 単なるAIツール導入支援ではなく、実証済みのAI開発手法をご提供します。</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/features-2.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-3">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Field-Proven品質 ― 現場実装で培った技術力</h3>
-                    <p class="fst-italic">Grace農機 × AI統合研究における熟度判定精度92%の実証実績</p>
-                    <p><strong>一般的な開発アプローチ:</strong> 理論ベースの設計 → 本番環境でのギャップ発生 → 手戻り工数の増加<br>
-                    <strong>MEMAの実践的アプローチ:</strong> 現場実装で検証済み → 初回から高精度を実現 → 手戻り工数を70%削減<br><br>
-                    Grace農機との統合研究プロジェクトにおいて、<strong>熟度判定精度92%</strong>という成果を実証しました。ソフトウェア開発だけでなく、ハードウェア統合や現場運用まで含めた総合的な開発力が、お客様のビジネス課題解決に貢献します。<br><br>
-                    <strong>お客様のメリット:</strong> 机上の提案ではなく、実装実績に基づく確実な技術支援をご提供します。</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/features-3.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-4">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>内製化支援 ― システム納品とノウハウ移転</h3>
-                    <p class="fst-italic">システム納品後も、お客様チームが自走できるまで技術支援を継続</p>
-                    <p><strong>一般的な受託開発:</strong> システム納品完了 → 保守契約で継続支援 → 外部依存の継続<br>
-                    <strong>MEMAの内製化支援:</strong> システム納品 + AI活用ノウハウ移転 → 段階的な内製化を実現<br><br>
-                    お客様の長期的な競争力強化を目指し、<strong>AI開発手法の知識移転</strong>を重視しています。実プロジェクトを通じた実践的な技術習得支援、継続的な技術サポート体制により、段階的な内製化を実現します。<br><br>
-                    <strong>お客様のメリット:</strong> 外部委託費用の最適化と、社内開発体制の強化を両立できます。</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/features-4.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-5">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>ビジネス成果重視 ― システム開発とビジネス支援の両立</h3>
-                    <p class="fst-italic">納品完了後も、ビジネス成果の実現まで継続的に支援</p>
-                    <p><strong>一般的な受託開発:</strong> 仕様通りの納品で契約完了 → ビジネス成果は別課題<br>
-                    <strong>MEMAのアプローチ:</strong> 市場投入後のKPI達成まで支援 → ビジネス成果の実現を重視<br><br>
-                    システム開発の完了は、プロジェクトのゴールではなく、スタートと考えています。<strong>顧客獲得、売上向上、業務効率化など、実際のビジネス成果</strong>に貢献できるよう、市場投入後のフィードバック収集、改善提案、追加開発支援まで、継続的にサポートいたします。<br><br>
-                    <strong>お客様のメリット:</strong> システム納品後の「使えない」リスクを最小化し、継続的な成長を実現できます。</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/features-5.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
+        <div class="promises-grid">
+          <div class="promise-card">
+            <div class="promise-number">01</div>
+            <div class="promise-icon">
+              <i class="ri-timer-flash-line"></i>
             </div>
+            <h4>AI技術による開発効率化</h4>
+            <p>Claude Code × モジュール化アーキテクチャにより、<strong>開発効率80%向上</strong>を実証。品質を維持したまま開発期間を大幅短縮します。</p>
+          </div>
+
+          <div class="promise-card">
+            <div class="promise-number">02</div>
+            <div class="promise-icon">
+              <i class="ri-lightbulb-flash-line"></i>
+            </div>
+            <h4>AI Native開発文化</h4>
+            <p>創業時からAI技術を開発プロセスの中核に据え、コード生成自動化率60%、ドキュメント網羅率100%を実現。</p>
+          </div>
+
+          <div class="promise-card">
+            <div class="promise-number">03</div>
+            <div class="promise-icon">
+              <i class="ri-award-line"></i>
+            </div>
+            <h4>Field-Proven品質</h4>
+            <p>Grace農機 × AI統合研究で<strong>熟度判定精度92%</strong>を実証。現場実装で培った技術力をご提供します。</p>
+          </div>
+
+          <div class="promise-card">
+            <div class="promise-number">04</div>
+            <div class="promise-icon">
+              <i class="ri-share-forward-line"></i>
+            </div>
+            <h4>外部依存ゼロ化支援</h4>
+            <p>システム納品 + AI活用ノウハウ移転により、<strong>段階的な内製化</strong>を実現。長期的な競争力強化を支援します。</p>
+          </div>
+
+          <div class="promise-card">
+            <div class="promise-number">05</div>
+            <div class="promise-icon">
+              <i class="ri-line-chart-line"></i>
+            </div>
+            <h4>成果コミット型</h4>
+            <p>システム開発の完了はスタート。<strong>ビジネスKPI達成</strong>まで継続的にサポートし、実際の成果に貢献します。</p>
           </div>
         </div>
-
       </div>
-    </section><!-- End Features Section -->
+    </section><!-- End Promises Section -->
+
+    <!-- ======= CTA Section ======= -->
+    <section id="services-cta" class="service-details">
+      <div class="container">
+        <div class="service-cta">
+          <h3>どのサービスが最適か、一緒に考えませんか？</h3>
+          <p>30分の無料相談で、御社の課題に対する最適なアプローチをご提案します。</p>
+          <div class="cta-buttons">
+            <a href="mailto:info@mema.co.jp" class="btn-primary-cta-large">
+              <i class="ri-mail-line"></i> 無料相談を予約する
+            </a>
+            <a href="tel:+81-03-6280-4396" class="btn-secondary-cta-large">
+              <i class="ri-phone-line"></i> お電話でのお問い合わせ
+            </a>
+          </div>
+          <div class="cta-reassurance mt-4">
+            <p><i class="ri-chat-smile-3-line"></i> 強引な営業は一切ありません。貴社の課題をAIでどう解決できるか、壁打ち相手としてご活用ください。</p>
+          </div>
+        </div>
+      </div>
+    </section><!-- End CTA Section -->
 
   </main><!-- End #main -->
 
@@ -234,7 +318,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script><!-- Load our React component. -->
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
   <script src="assets/js/page_header.js"></script>
   <script src="assets/js/page_footer.js"></script>
 </body>
