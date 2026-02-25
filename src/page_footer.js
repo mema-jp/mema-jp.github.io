@@ -54,7 +54,7 @@ class PageFooter extends React.Component {
                 <h4>プロダクト</h4>
                 <ul>
                   <li><i class="bx bx-chevron-right"></i> <a href="https://mema.jp" target="_blank">Mema-Omni</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="https://edu.mema.jp" target="_blank">Mema-Edu</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="https://learn.nts-ed.com" target="_blank">Mema-Edu</a></li>
                   <li><i class="bx bx-chevron-right"></i> <a href="https://ses.mema.jp" target="_blank">Mema-SES</a></li>
                 </ul>
               </div>

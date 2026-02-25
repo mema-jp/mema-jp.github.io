@@ -203,7 +203,7 @@ var PageFooter = function (_React$Component) {
                     " ",
                     React.createElement(
                       "a",
-                      { href: "https://edu.mema.jp", target: "_blank" },
+                      { href: "https://learn.nts-ed.com", target: "_blank" },
                       "Mema-Edu"
                     )
                   ),
