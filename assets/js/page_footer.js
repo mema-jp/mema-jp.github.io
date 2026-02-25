@@ -1,20 +1,20 @@
 'use strict';
 
-var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
-
-var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var PageFooter = (function (_React$Component) {
+var PageFooter = function (_React$Component) {
   _inherits(PageFooter, _React$Component);
 
   function PageFooter(props) {
     _classCallCheck(this, PageFooter);
 
-    _get(Object.getPrototypeOf(PageFooter.prototype), "constructor", this).call(this, props);
+    return _possibleConstructorReturn(this, (PageFooter.__proto__ || Object.getPrototypeOf(PageFooter)).call(this, props));
   }
 
   _createClass(PageFooter, [{
@@ -41,14 +41,14 @@ var PageFooter = (function (_React$Component) {
                   React.createElement(
                     "h3",
                     null,
-                    "株式会社MEMA"
+                    "\u682A\u5F0F\u4F1A\u793EMEMA"
                   ),
                   React.createElement(
                     "p",
                     null,
-                    "〒104-0033 ",
+                    "\u3012104-0033 ",
                     React.createElement("br", null),
-                    "東京都中央区新川１−２４−７−２０３",
+                    "\u6771\u4EAC\u90FD\u4E2D\u592E\u533A\u65B0\u5DDD\uFF11\u2212\uFF12\uFF14\u2212\uFF17\u2212\uFF12\uFF10\uFF13",
                     React.createElement("br", null),
                     React.createElement(
                       "strong",
@@ -66,7 +66,7 @@ var PageFooter = (function (_React$Component) {
                 React.createElement(
                   "h4",
                   null,
-                  "リンク"
+                  "\u30EA\u30F3\u30AF"
                 ),
                 React.createElement(
                   "ul",
@@ -79,7 +79,7 @@ var PageFooter = (function (_React$Component) {
                     React.createElement(
                       "a",
                       { href: "/" },
-                      "ホーム"
+                      "\u30DB\u30FC\u30E0"
                     )
                   ),
                   React.createElement(
@@ -90,7 +90,7 @@ var PageFooter = (function (_React$Component) {
                     React.createElement(
                       "a",
                       { href: "services.html" },
-                      "サービス"
+                      "\u30B5\u30FC\u30D3\u30B9"
                     )
                   ),
                   React.createElement(
@@ -101,7 +101,7 @@ var PageFooter = (function (_React$Component) {
                     React.createElement(
                       "a",
                       { href: "about.html" },
-                      "会社情報"
+                      "\u4F1A\u793E\u60C5\u5831"
                     )
                   ),
                   React.createElement(
@@ -112,7 +112,7 @@ var PageFooter = (function (_React$Component) {
                     React.createElement(
                       "a",
                       { href: "contact.html" },
-                      "お問い合わせ"
+                      "\u304A\u554F\u3044\u5408\u308F\u305B"
                     )
                   )
                 )
@@ -123,7 +123,7 @@ var PageFooter = (function (_React$Component) {
                 React.createElement(
                   "h4",
                   null,
-                  "サービス"
+                  "\u30B5\u30FC\u30D3\u30B9"
                 ),
                 React.createElement(
                   "ul",
@@ -136,7 +136,7 @@ var PageFooter = (function (_React$Component) {
                     React.createElement(
                       "a",
                       { href: "service-web-mobile.html" },
-                      "Webとモバイルアプリ開発"
+                      "Web\u3068\u30E2\u30D0\u30A4\u30EB\u30A2\u30D7\u30EA\u958B\u767A"
                     )
                   ),
                   React.createElement(
@@ -147,7 +147,7 @@ var PageFooter = (function (_React$Component) {
                     React.createElement(
                       "a",
                       { href: "service-ai.html" },
-                      "AI関連研究"
+                      "AI\u95A2\u9023\u7814\u7A76"
                     )
                   ),
                   React.createElement(
@@ -158,7 +158,7 @@ var PageFooter = (function (_React$Component) {
                     React.createElement(
                       "a",
                       { href: "service-training.html" },
-                      "プログラマー向け研修"
+                      "\u30D7\u30ED\u30B0\u30E9\u30DE\u30FC\u5411\u3051\u7814\u4FEE"
                     )
                   ),
                   React.createElement(
@@ -169,7 +169,53 @@ var PageFooter = (function (_React$Component) {
                     React.createElement(
                       "a",
                       { href: "service-agriculture.html" },
-                      "農業技術研究"
+                      "\u8FB2\u696D\u6280\u8853\u7814\u7A76"
+                    )
+                  )
+                )
+              ),
+              React.createElement(
+                "div",
+                { "class": "col-lg-4 col-md-6 footer-links" },
+                React.createElement(
+                  "h4",
+                  null,
+                  "\u30D7\u30ED\u30C0\u30AF\u30C8"
+                ),
+                React.createElement(
+                  "ul",
+                  null,
+                  React.createElement(
+                    "li",
+                    null,
+                    React.createElement("i", { "class": "bx bx-chevron-right" }),
+                    " ",
+                    React.createElement(
+                      "a",
+                      { href: "https://mema.jp", target: "_blank" },
+                      "Mema-Omni"
+                    )
+                  ),
+                  React.createElement(
+                    "li",
+                    null,
+                    React.createElement("i", { "class": "bx bx-chevron-right" }),
+                    " ",
+                    React.createElement(
+                      "a",
+                      { href: "https://edu.mema.jp", target: "_blank" },
+                      "Mema-Edu"
+                    )
+                  ),
+                  React.createElement(
+                    "li",
+                    null,
+                    React.createElement("i", { "class": "bx bx-chevron-right" }),
+                    " ",
+                    React.createElement(
+                      "a",
+                      { href: "https://ses.mema.jp", target: "_blank" },
+                      "Mema-SES"
                     )
                   )
                 )
@@ -183,14 +229,14 @@ var PageFooter = (function (_React$Component) {
           React.createElement(
             "div",
             { "class": "copyright" },
-            "© Copyright ",
+            "\xA9 Copyright ",
             React.createElement(
               "strong",
               null,
               React.createElement(
                 "span",
                 null,
-                "株式会社MEMA (MEMA Co.,Ltd.)"
+                "\u682A\u5F0F\u4F1A\u793EMEMA (MEMA Co.,Ltd.)"
               )
             ),
             ". All Rights Reserved"
@@ -201,20 +247,7 @@ var PageFooter = (function (_React$Component) {
   }]);
 
   return PageFooter;
-})(React.Component);
+}(React.Component);
 
 var domContainer = document.querySelector('#footer');
 ReactDOM.render(React.createElement(PageFooter, null), domContainer);
-/* <strong>Phone:</strong> 080-9373-5115<br/> */ /* <div class="social-links mt-3">
-                                                  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                                                  <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                                                  <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                                                  <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                                                  <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                                                 </div> */ /* <div class="col-lg-4 col-md-6 footer-newsletter">
-                                                            <h4>Our Newsletter</h4>
-                                                            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                                                            <form action="" method="post">
-                                                              <input type="email" name="email" /><input type="submit" value="Subscribe" />
-                                                            </form>
-                                                           </div> */

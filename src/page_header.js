@@ -47,6 +47,7 @@ class PageHeader extends React.Component {
               <li><a href="services.html" className={this.state.active == "services.html" || this.state.active.startsWith("service-") ? "active" : ""}>サービス</a></li>
               <li><a href="about.html" className={this.state.active == "about.html" ? "active" : ""}>会社情報</a></li>
               <li><a href="contact.html" className={this.state.active == "contact.html" ? "active" : ""}>お問い合わせ</a></li>
+              <li><a href="https://mema.jp" target="_blank">プロダクト</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
           </nav>

@@ -50,14 +50,14 @@ class PageFooter extends React.Component {
                 </ul>
               </div>
 
-              {/* <div class="col-lg-4 col-md-6 footer-newsletter">
-                <h4>Our Newsletter</h4>
-                <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                <form action="" method="post">
-                  <input type="email" name="email" /><input type="submit" value="Subscribe" />
-                </form>
-
-              </div> */}
+              <div class="col-lg-4 col-md-6 footer-links">
+                <h4>プロダクト</h4>
+                <ul>
+                  <li><i class="bx bx-chevron-right"></i> <a href="https://mema.jp" target="_blank">Mema-Omni</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="https://edu.mema.jp" target="_blank">Mema-Edu</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="https://ses.mema.jp" target="_blank">Mema-SES</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
