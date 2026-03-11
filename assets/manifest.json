@@ -1,6 +1,8 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "MEMA",
+  "name": "株式会社MEMA | AI駆動型受託開発",
+  "description": "AI技術を高度統合した受託開発企業。開発効率80%向上を実証。",
+  "lang": "ja",
   "icons": [
     {
       "src": "img/favicon.ico",
@@ -18,8 +20,9 @@
       "type": "image/png"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://mema.co.jp/",
+  "scope": "https://mema.co.jp/",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#2c4a6e",
   "background_color": "#ffffff"
 }

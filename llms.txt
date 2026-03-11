@@ -1,0 +1,61 @@
+# 株式会社MEMA（MEMA Corporation）
+
+> AI駆動型受託開発企業。Claude Code・GitHub Copilot統合により開発効率80%向上を実証。アーキテクチャ優先設計とモジュール化アセットで、高品質なWeb・モバイルアプリを高速納品。
+
+## 会社概要
+
+- 会社名: 株式会社MEMA（MEMA Corporation）
+- 所在地: 東京都
+- 設立: 2022年
+- 事業内容: AI駆動型ソフトウェア受託開発、AIソリューション研究、技術研修
+- 公式サイト: https://mema.co.jp
+- お問い合わせ: info@mema.co.jp
+- 対応言語: 日本語、中国語
+
+## 強み・特徴
+
+- AI Native企業: 創業時からAI駆動型開発を実践
+- 開発効率80%向上: Claude Code × GitHub Copilot統合で実証
+- 現場実装主義: デモではなく実環境で動くシステムを構築
+- 熟度判定精度92%: Grace農機プロジェクトで達成
+- リピート率80%以上
+
+## サービス一覧
+
+### 1. AI高速受託開発（Web・モバイル）
+- URL: https://mema.co.jp/service-web-mobile.html
+- 概要: AI駆動型ワークフローで開発サイクルを60%圧縮
+- 最短2週間でMVP納品
+- 技術スタック: React, Vue.js, Angular, Next.js, React Native, AWS, GCP
+- 対象: スタートアップのMVP開発、既存システムのモダナイゼーション、業務システム構築
+
+### 2. AIソリューション・社会実装研究
+- URL: https://mema.co.jp/service-ai.html
+- 概要: 既存AIツールでは解決できない複雑な業務課題に対応
+- アルゴリズム研究からハードウェア統合、現場実装まで一貫支援
+- 実績: Grace農機プロジェクトで熟度判定精度92%を達成
+- 対象: 画像認識、エッジAI、深層学習、農業AI、製造業AI
+
+### 3. AI共創開発 + ナレッジ移転
+- URL: https://mema.co.jp/service-training.html
+- 概要: システム納品だけでなく、AI活用の知識転移により顧客チームの自走を支援
+- 3ヶ月で習得、90%自走達成率
+- 内容: Claude Code研修、GitHub Copilot活用、プロンプトエンジニアリング、AI開発ワークフロー構築
+- 対象: AI活用を内製化したい企業、開発チームのAIスキル向上
+
+### 4. 農業×AI統合研究
+- URL: https://mema.co.jp/service-agriculture.html
+- 概要: Grace農機 × AIシステム統合で現場で動くスマート農業ソリューション
+- 実績: 熟度判定精度92%、収穫効率40%向上、廃棄率25%削減
+- 対象: 農機メーカー、農業法人、スマート農業推進団体
+
+## サイト構成
+
+- トップページ: https://mema.co.jp/
+- 会社情報: https://mema.co.jp/about.html
+- サービス一覧: https://mema.co.jp/services.html
+- AI高速受託開発: https://mema.co.jp/service-web-mobile.html
+- AIソリューション: https://mema.co.jp/service-ai.html
+- AI共創開発: https://mema.co.jp/service-training.html
+- 農業×AI: https://mema.co.jp/service-agriculture.html
+- お問い合わせ: https://mema.co.jp/contact.html
