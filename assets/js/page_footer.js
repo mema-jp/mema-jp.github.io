@@ -100,6 +100,28 @@ var PageFooter = function (_React$Component) {
                     " ",
                     React.createElement(
                       "a",
+                      { href: "vision.html" },
+                      "\u30D3\u30B8\u30E7\u30F3"
+                    )
+                  ),
+                  React.createElement(
+                    "li",
+                    null,
+                    React.createElement("i", { "class": "bx bx-chevron-right" }),
+                    " ",
+                    React.createElement(
+                      "a",
+                      { href: "recruit.html" },
+                      "\u63A1\u7528"
+                    )
+                  ),
+                  React.createElement(
+                    "li",
+                    null,
+                    React.createElement("i", { "class": "bx bx-chevron-right" }),
+                    " ",
+                    React.createElement(
+                      "a",
                       { href: "about.html" },
                       "\u4F1A\u793E\u60C5\u5831"
                     )
@@ -136,7 +158,7 @@ var PageFooter = function (_React$Component) {
                     React.createElement(
                       "a",
                       { href: "service-web-mobile.html" },
-                      "Web\u3068\u30E2\u30D0\u30A4\u30EB\u30A2\u30D7\u30EA\u958B\u767A"
+                      "\u30B7\u30B9\u30C6\u30E0\u958B\u767A"
                     )
                   ),
                   React.createElement(
@@ -147,7 +169,7 @@ var PageFooter = function (_React$Component) {
                     React.createElement(
                       "a",
                       { href: "service-ai.html" },
-                      "AI\u95A2\u9023\u7814\u7A76"
+                      "AI\u30BD\u30EA\u30E5\u30FC\u30B7\u30E7\u30F3\u7814\u7A76"
                     )
                   ),
                   React.createElement(
@@ -158,7 +180,7 @@ var PageFooter = function (_React$Component) {
                     React.createElement(
                       "a",
                       { href: "service-training.html" },
-                      "\u30D7\u30ED\u30B0\u30E9\u30DE\u30FC\u5411\u3051\u7814\u4FEE"
+                      "AI\u6D3B\u7528\u652F\u63F4\u30FB\u7814\u4FEE"
                     )
                   ),
                   React.createElement(
@@ -169,7 +191,7 @@ var PageFooter = function (_React$Component) {
                     React.createElement(
                       "a",
                       { href: "service-agriculture.html" },
-                      "\u8FB2\u696D\u6280\u8853\u7814\u7A76"
+                      "Mema Village"
                     )
                   )
                 )

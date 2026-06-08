@@ -104,6 +104,24 @@ var PageHeader = function (_React$Component) {
                 null,
                 React.createElement(
                   "a",
+                  { href: "vision.html", className: this.state.active == "vision.html" ? "active" : "" },
+                  "\u30D3\u30B8\u30E7\u30F3"
+                )
+              ),
+              React.createElement(
+                "li",
+                null,
+                React.createElement(
+                  "a",
+                  { href: "recruit.html", className: this.state.active == "recruit.html" ? "active" : "" },
+                  "\u63A1\u7528"
+                )
+              ),
+              React.createElement(
+                "li",
+                null,
+                React.createElement(
+                  "a",
                   { href: "about.html", className: this.state.active == "about.html" ? "active" : "" },
                   "\u4F1A\u793E\u60C5\u5831"
                 )

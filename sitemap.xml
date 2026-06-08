@@ -23,11 +23,27 @@
     <!-- サービス一覧 -->
     <url>
         <loc>https://mema.co.jp/services.html</loc>
-        <lastmod>2026-03-11</lastmod>
+        <lastmod>2026-06-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
-    
+
+    <!-- ビジョン -->
+    <url>
+        <loc>https://mema.co.jp/vision.html</loc>
+        <lastmod>2026-06-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- 採用 -->
+    <url>
+        <loc>https://mema.co.jp/recruit.html</loc>
+        <lastmod>2026-06-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
     <!-- Web・モバイル開発サービス -->
     <url>
         <loc>https://mema.co.jp/service-web-mobile.html</loc>
@@ -52,10 +68,10 @@
         <priority>0.8</priority>
     </url>
     
-    <!-- 農業技術研究サービス -->
+    <!-- Mema Village（研究・地方創生） -->
     <url>
         <loc>https://mema.co.jp/service-agriculture.html</loc>
-        <lastmod>2026-03-11</lastmod>
+        <lastmod>2026-06-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
