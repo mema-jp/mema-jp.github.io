@@ -3996,6 +3996,14 @@ h2 {
   line-height: 1.2;
 }
 
+.service-hero .tagline-lead {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+
 .service-hero .lead {
   font-size: 1.2rem;
   color: rgba(255, 255, 255, 0.85);

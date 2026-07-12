@@ -111,6 +111,17 @@ var PageFooter = function (_React$Component) {
                     " ",
                     React.createElement(
                       "a",
+                      { href: "community.html" },
+                      "\u5730\u57DF\u3068\u3068\u3082\u306B"
+                    )
+                  ),
+                  React.createElement(
+                    "li",
+                    null,
+                    React.createElement("i", { "class": "bx bx-chevron-right" }),
+                    " ",
+                    React.createElement(
+                      "a",
                       { href: "recruit.html" },
                       "\u63A1\u7528"
                     )

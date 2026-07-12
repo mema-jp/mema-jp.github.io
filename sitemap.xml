@@ -36,6 +36,14 @@
         <priority>0.8</priority>
     </url>
 
+    <!-- 地域とともに -->
+    <url>
+        <loc>https://mema.co.jp/community.html</loc>
+        <lastmod>2026-07-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
     <!-- 採用 -->
     <url>
         <loc>https://mema.co.jp/recruit.html</loc>
