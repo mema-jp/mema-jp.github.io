@@ -201,8 +201,8 @@ var PageFooter = function (_React$Component) {
                     " ",
                     React.createElement(
                       "a",
-                      { href: "service-agriculture.html" },
-                      "Mema Village"
+                      { href: "https://mema.jp/kazoeru" },
+                      "カゾエル（サイネージ視聴率計測）"
                     )
                   )
                 )
