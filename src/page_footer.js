@@ -1,5 +1,12 @@
 'use strict';
 
+// フッターは HTML ではなくここで組み立てている。
+// リンクを足す・消すときは各 *.html ではなくこのファイルを直し、
+// `npm run build` で assets/js/page_footer.js を作り直す。
+// assets/js は生成物なので直接編集しない（CI の drift チェックで落ちる）。
+//
+// 社名・住所・メールは site.config.json の locked 値。勝手に変えない。
+
 class PageFooter extends React.Component {
   constructor(props) {
     super(props);
@@ -35,6 +42,9 @@ class PageFooter extends React.Component {
                 <ul>
                   <li><i class="bx bx-chevron-right"></i> <a href="/">ホーム</a></li>
                   <li><i class="bx bx-chevron-right"></i> <a href="services.html">サービス</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="vision.html">ビジョン</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="community.html">地域とともに</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="recruit.html">採用</a></li>
                   <li><i class="bx bx-chevron-right"></i> <a href="about.html">会社情報</a></li>
                   <li><i class="bx bx-chevron-right"></i> <a href="contact.html">お問い合わせ</a></li>
                 </ul>
@@ -43,10 +53,10 @@ class PageFooter extends React.Component {
               <div class="col-lg-3 col-md-6 footer-links">
                 <h4>サービス</h4>
                 <ul>
-                  <li><i class="bx bx-chevron-right"></i> <a href="service-web-mobile.html">Webとモバイルアプリ開発</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="service-ai.html">AI関連研究</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="service-training.html">プログラマー向け研修</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="service-agriculture.html">農業技術研究</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="service-web-mobile.html">システム開発</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="service-ai.html">AIソリューション研究</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="service-training.html">AI活用支援・研修</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="https://mema.jp/kazoeru">カゾエル（サイネージ視聴率計測）</a></li>
                 </ul>
               </div>
 

@@ -1,26 +1,23 @@
 {
   "name": "mema-jp.github.io",
   "version": "1.0.0",
-  "description": "Thanks for downloading this template!",
-  "main": "index.js",
+  "description": "株式会社MEMA コーポレートサイト（mema.co.jp / GitHub Pages）",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx babel --watch src --out-dir assets/js --presets react-app/prod",
-    "serve": "npx http-serve"
+    "build": "esbuild src/page_header.js src/page_footer.js --loader:.js=jsx --target=es2017 --format=iife --banner:js='// 生成物。直接編集しないこと —— src/ を直して npm run build（CI の drift チェックで落ちます）' --outdir=assets/js",
+    "watch": "esbuild src/page_header.js src/page_footer.js --loader:.js=jsx --target=es2017 --format=iife --banner:js='// 生成物。直接編集しないこと —— src/ を直して npm run build（CI の drift チェックで落ちます）' --outdir=assets/js --watch",
+    "check": "npm run build && git diff --exit-code -- assets/js",
+    "serve": "npx http-server -c-1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mema-jp/mema-jp.github.io.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/mema-jp/mema-jp.github.io/issues"
   },
   "homepage": "https://github.com/mema-jp/mema-jp.github.io#readme",
-  "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-react-app": "^3.1.2"
-  }
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  },
+  "private": true
 }

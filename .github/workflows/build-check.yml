@@ -1,0 +1,34 @@
+# ヘッダーとフッターは src/*.js（JSX）から assets/js/*.js を生成している。
+# 以前、assets/js のほうを直接いじった結果、src が半年古いまま残り、
+# 「src をビルドするとナビが 2 月の状態に戻る」状態になっていた。
+#
+# このジョブは src からビルドし直して assets/js と一致するかだけを見る。
+# ずれていたら落とす —— 二重管理を人の注意力で支えないため。
+name: build check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  drift:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - name: src からビルドし直して assets/js と突き合わせる
+        run: npm run check
+      - name: ずれていたときの差分
+        if: failure()
+        run: |
+          echo '::error::assets/js が src/ から生成したものと一致しません。'
+          echo 'assets/js を直接編集した場合は、同じ変更を src/ に入れて npm run build してください。'
+          git diff -- assets/js
