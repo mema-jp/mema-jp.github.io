@@ -1,4 +1,10 @@
-'use strict';  
+'use strict';
+
+// ヘッダーは HTML ではなくここで組み立てている。
+// ナビにページを足すときは各 *.html ではなくこのファイルを直し、
+// `npm run build` で assets/js/page_header.js を作り直す。
+// assets/js は生成物なので直接編集しない（CI の drift チェックで落ちる）。
+
 const select = (el, all = false) => {
   el = el.trim()
   if (all) {
@@ -45,6 +51,9 @@ class PageHeader extends React.Component {
             <ul>
               <li><a href="index.html" className={this.state.active == "index.html" ? "active" : ""}>ホーム</a></li>
               <li><a href="services.html" className={this.state.active == "services.html" || this.state.active.startsWith("service-") ? "active" : ""}>サービス</a></li>
+              <li><a href="vision.html" className={this.state.active == "vision.html" ? "active" : ""}>ビジョン</a></li>
+              <li><a href="community.html" className={this.state.active == "community.html" ? "active" : ""}>地域とともに</a></li>
+              <li><a href="recruit.html" className={this.state.active == "recruit.html" ? "active" : ""}>採用</a></li>
               <li><a href="about.html" className={this.state.active == "about.html" ? "active" : ""}>会社情報</a></li>
               <li><a href="contact.html" className={this.state.active == "contact.html" ? "active" : ""}>お問い合わせ</a></li>
               <li><a href="https://mema.jp" target="_blank">プロダクト</a></li>
