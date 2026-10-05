@@ -23,3 +23,7 @@ yarn-debug.log*
 yarn-error.log*
 
 /.firebase
+
+# 購入テーマ付属の説明書。ルート直下で公開配信されてしまう
+Readme.txt
+changelog.txt
