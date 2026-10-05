@@ -23,3 +23,13 @@ yarn-debug.log*
 yarn-error.log*
 
 /.firebase
+
+# 購入テーマ由来のビルド道具は置かない。
+# assets/js/*.js が現役の実体で、人が直接編集している（src/ は 2026-02 で止まり、
+# community.html / recruit.html への導線が入っていない半年前の版だった）。
+# package.json を復活させると、その古い版で本番のナビを上書きしてしまう。
+package.json
+package-lock.json
+src/
+Readme.txt
+changelog.txt
