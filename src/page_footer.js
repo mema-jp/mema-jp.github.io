@@ -50,22 +50,22 @@ class PageFooter extends React.Component {
                 </ul>
               </div>
 
-              <div class="col-lg-3 col-md-6 footer-links">
+              <div class="col-lg-4 col-md-6 footer-links">
                 <h4>サービス</h4>
                 <ul>
+                  <li><i class="bx bx-chevron-right"></i> <a href="services.html">ホームページ・ネットショップ制作と運用</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="https://mema.jp/llmo">LLMO チェック</a></li>
                   <li><i class="bx bx-chevron-right"></i> <a href="service-web-mobile.html">システム開発</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="service-ai.html">AIソリューション研究</a></li>
                   <li><i class="bx bx-chevron-right"></i> <a href="service-training.html">AI活用支援・研修</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="https://mema.jp/kazoeru">カゾエル（サイネージ視聴率計測）</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="service-ai.html">AIソリューション研究</a></li>
                 </ul>
               </div>
 
-              <div class="col-lg-4 col-md-6 footer-links">
+              <div class="col-lg-3 col-md-6 footer-links">
                 <h4>プロダクト</h4>
                 <ul>
-                  <li><i class="bx bx-chevron-right"></i> <a href="https://mema.jp" target="_blank">Mema-Omni</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="https://learn.nts-ed.com" target="_blank">Mema-Edu</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="https://ses.mema.jp" target="_blank">Mema-SES</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="https://mema.jp/edu">Mema-Edu（企業研修・学習管理）</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="https://mema.jp/kazoeru">カゾエル（サイネージ視聴率計測）</a></li>
                 </ul>
               </div>
             </div>
