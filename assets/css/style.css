@@ -544,11 +544,27 @@ a:hover {
   text-align: center;
 }
 
+#hero h1,
 #hero h2 {
   color: #fff;
   margin-bottom: 20px;
   font-size: 48px;
   font-weight: 700;
+}
+
+/* 買い切り・月額0円 — 一番言いたい一行 */
+#hero .hero-lead {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+/* 拠点の補足。本文より一段落とす */
+#hero .hero-sub {
+  font-size: 15px;
+  opacity: 0.85;
+  margin-top: 26px;
+  margin-bottom: 0;
 }
 
 #hero p {
@@ -5577,4 +5593,57 @@ h2 {
   .promise-card h4 {
     font-size: 1.1rem;
   }
+}
+
+
+/*--------------------------------------------------------------
+# 料金セクションの補足（買い切りの条件・公開後の修正・LLMO への導線）
+--------------------------------------------------------------*/
+.pricing-notes {
+  background: #fff;
+  border: 1px solid rgba(0, 102, 255, 0.12);
+  border-radius: 12px;
+  padding: 22px 26px;
+  margin-top: 10px;
+}
+
+.pricing-notes ul {
+  margin: 0;
+  padding-left: 1.2em;
+  text-align: left;
+  color: #444;
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.pricing-notes ul li {
+  padding-bottom: 6px;
+}
+
+.pricing-sub {
+  margin-top: 46px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.pricing-sub-note {
+  color: #666;
+  font-size: 15px;
+  margin-bottom: 14px;
+}
+
+/* 継続して見る作業は制作費に含めない、と明示する箱 */
+.pricing-llmo {
+  margin-top: 34px;
+  padding: 20px 24px;
+  border-left: 4px solid #0066FF;
+  background: #f8fbff;
+  border-radius: 0 10px 10px 0;
+}
+
+.pricing-llmo p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.9;
+  color: #444;
 }
