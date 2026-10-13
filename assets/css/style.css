@@ -5459,17 +5459,6 @@ h2 {
   padding-bottom: 6px;
 }
 
-.pricing-sub {
-  margin-top: 46px;
-  font-size: 22px;
-  font-weight: 700;
-}
-
-.pricing-sub-note {
-  color: #666;
-  font-size: 15px;
-  margin-bottom: 14px;
-}
 
 /* 継続して見る作業は制作費に含めない、と明示する箱 */
 .pricing-llmo {
