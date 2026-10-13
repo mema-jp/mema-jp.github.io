@@ -45,12 +45,13 @@ class PageHeader extends React.Component {
     return (
       <React.Fragment>
         <div class="container d-flex align-items-center">
-          <a href="index.html" class="logo me-auto"><img src="assets/img/logo.svg" alt="" class="img-fluid" /></a>
+          <a href="index.html" class="logo me-auto"><img src="assets/img/logo.svg" alt="株式会社MEMA" class="img-fluid" /></a>
 
           <nav id="navbar" class="navbar">
             <ul>
               <li><a href="index.html" className={this.state.active == "index.html" ? "active" : ""}>ホーム</a></li>
               <li><a href="services.html" className={this.state.active == "services.html" || this.state.active.startsWith("service-") ? "active" : ""}>サービス</a></li>
+              <li><a href="index.html#pricing">料金</a></li>
               <li><a href="vision.html" className={this.state.active == "vision.html" ? "active" : ""}>ビジョン</a></li>
               <li><a href="community.html" className={this.state.active == "community.html" ? "active" : ""}>地域とともに</a></li>
               <li><a href="recruit.html" className={this.state.active == "recruit.html" ? "active" : ""}>採用</a></li>

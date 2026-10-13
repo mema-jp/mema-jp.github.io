@@ -27,6 +27,12 @@ class PageFooter extends React.Component {
                     {/* <strong>Phone:</strong> 080-9373-5115<br/> */}
                     <strong>Email:</strong> info@mema.co.jp<br />
                   </p>
+                  {/* 館山拠点。住所が未受領のため市までで出している。
+                      番地が届いたらここに足す（site.config.json の locked にも追加すること） */}
+                  <p>
+                    <strong>館山拠点</strong><br />
+                    千葉県館山市
+                  </p>
                   {/* <div class="social-links mt-3">
                     <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                     <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -73,7 +79,7 @@ class PageFooter extends React.Component {
         </div>
         <div class="container">
           <div class="copyright">
-            &copy; Copyright <strong><span>株式会社MEMA (MEMA Co.,Ltd.)</span></strong>. All Rights Reserved
+            &copy; 2022-2026 <strong><span>株式会社MEMA (MEMA Co.,Ltd.)</span></strong>. All Rights Reserved
           </div>
         </div>
       </React.Fragment>
