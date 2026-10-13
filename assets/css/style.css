@@ -5388,131 +5388,6 @@ h2 {
   color: #059669;
 }
 
-/*--------------------------------------------------------------
-# Promises Section
---------------------------------------------------------------*/
-.promises-section {
-  background: linear-gradient(135deg, var(--dark-navy) 0%, var(--medium-navy) 100%);
-  padding: 80px 0;
-  color: #fff;
-}
-
-.promises-section .section-title {
-  padding-bottom: 30px;
-}
-
-.promises-section .section-title h2 {
-  color: #fff;
-  font-size: 2.2rem;
-  font-weight: 700;
-  margin-bottom: 15px;
-}
-
-.promises-section .section-title p {
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 1.1rem;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.promises-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 25px;
-  margin-top: 30px;
-}
-
-/* 20% 幅（5 枚並び）だと日本語が 2〜3 文字で折り返して読めない。3 枚並びにする */
-.promise-card {
-  flex: 0 1 calc(33.333% - 20px);
-  min-width: 260px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 16px;
-  padding: 35px 30px;
-  position: relative;
-  transition: all 0.3s ease;
-  overflow: hidden;
-}
-
-.promise-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: linear-gradient(90deg, var(--primary-color) 0%, #0052cc 100%);
-  transform: scaleX(0);
-  transition: transform 0.3s ease;
-}
-
-.promise-card:hover {
-  background: rgba(255, 255, 255, 0.08);
-  transform: translateY(-5px);
-  border-color: rgba(0, 102, 255, 0.3);
-}
-
-.promise-card:hover::before {
-  transform: scaleX(1);
-}
-
-.promise-number {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  font-size: 3rem;
-  font-weight: 800;
-  color: rgba(0, 102, 255, 0.15);
-  line-height: 1;
-}
-
-.promise-icon {
-  width: 60px;
-  height: 60px;
-  background: linear-gradient(135deg, rgba(0, 102, 255, 0.2) 0%, rgba(0, 102, 255, 0.1) 100%);
-  border-radius: 14px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-  transition: all 0.3s ease;
-}
-
-.promise-icon i {
-  font-size: 28px;
-  color: var(--primary-color);
-  display: inline-flex;
-  line-height: 1;
-}
-
-.promise-card:hover .promise-icon {
-  background: var(--primary-color);
-}
-
-.promise-card:hover .promise-icon i {
-  color: #fff;
-}
-
-.promise-card h4 {
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: #fff;
-  margin-bottom: 12px;
-}
-
-.promise-card p {
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 0.95rem;
-  line-height: 1.7;
-  margin: 0;
-}
-
-.promise-card p strong {
-  color: var(--primary-color);
-}
-
 /* ======= Services Page Responsive ======= */
 @media (max-width: 992px) {
   .service-card-large {
@@ -5527,9 +5402,6 @@ h2 {
     display: none;
   }
 
-  .promises-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 @media (max-width: 768px) {
@@ -5559,41 +5431,7 @@ h2 {
     padding: 5px 10px;
   }
 
-  .promises-section {
-    padding: 60px 0;
-  }
 
-  .promises-section .section-title h2 {
-    font-size: 1.8rem;
-  }
-
-  .promises-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-
-  .promise-card {
-    padding: 25px 20px;
-  }
-
-  .promise-number {
-    font-size: 2rem;
-    top: 15px;
-    right: 15px;
-  }
-
-  .promise-icon {
-    width: 50px;
-    height: 50px;
-  }
-
-  .promise-icon i {
-    font-size: 24px;
-  }
-
-  .promise-card h4 {
-    font-size: 1.1rem;
-  }
 }
 
 
