@@ -5423,9 +5423,10 @@ h2 {
   margin-top: 30px;
 }
 
+/* 20% 幅（5 枚並び）だと日本語が 2〜3 文字で折り返して読めない。3 枚並びにする */
 .promise-card {
-  flex: 0 1 calc(20% - 20px);
-  min-width: 220px;
+  flex: 0 1 calc(33.333% - 20px);
+  min-width: 260px;
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 16px;
