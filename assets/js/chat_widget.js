@@ -5,7 +5,9 @@
  * Opens mema.jp/chat in an iframe overlay.
  */
 (function () {
-  var CHAT_URL = 'https://mema.jp/chat?embed=1';
+  // from= は mema.jp 側でリードの由来に使う。referrer に頼らないのは、
+  // ブラウザやポリシー次第で落ちることがあるため
+  var CHAT_URL = 'https://mema.jp/chat?embed=1&from=corporate';
 
   var isOpen = false;
   var fab = null;
@@ -48,7 +50,7 @@
   function injectStyles() {
     var style = document.createElement('style');
     style.textContent =
-      '#mema-chat-fab{position:fixed;bottom:24px;right:24px;width:56px;height:56px;border-radius:50%;' +
+      '#mema-chat-fab{position:fixed;bottom:72px;right:24px;width:56px;height:56px;border-radius:50%;' +
       'background:#4f46e5;color:#fff;border:none;cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,.25);' +
       'z-index:99999;display:flex;align-items:center;justify-content:center;transition:transform .2s}' +
       '#mema-chat-fab:hover{transform:scale(1.08);background:#4338ca}' +
